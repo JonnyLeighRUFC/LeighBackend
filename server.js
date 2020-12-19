@@ -7,6 +7,7 @@ mobileApp.tables.add('Users'); // Create a table for 'Users' with default settin
 mobileApp.tables.add('Newsletter'); // Create a table for 'Newsletter' with default settings
 mobileApp.tables.add('Orders'); // Create a table for 'Orders' with default settings
 mobileApp.tables.add('Admins'); // Create a table for 'Admins' with default settings
+mobileApp.tables.add('PlaceProducts'); // Create a table for 'PlaceProducts' with default settings
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
